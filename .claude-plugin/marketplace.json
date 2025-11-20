@@ -1,0 +1,39 @@
+{
+  "name": "dot-claude",
+  "owner": {
+    "name": "Dot Claude by Sawyer",
+    "email": "saw.midd@gmail.com"
+  },
+  "metadata": {
+    "description": "A collection of actually useful skills and subagents for Claude Agent",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dot-claude-skills",
+      "source": "./skills",
+      "description": "Actually useful skills for Claude Agent",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sawyer"
+      },
+      "skills": [
+        "./creating-skills/SKILL.md",
+        "./conducting-deep-research/SKILL.md",
+        "./analyzing-source/SKILL.md"
+      ]
+    },
+    {
+      "name": "dot-claude-agents",
+      "source": "./agents",
+      "description": "Actually useful agents for Claude Agent",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sawyer"
+      },
+      "agents": [
+        "./research-analyst.md"
+      ]
+    }
+  ]
+}
