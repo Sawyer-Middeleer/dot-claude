@@ -27,8 +27,6 @@ Conducts comprehensive research on complex topics with technical rigor, synthesi
 
 **Features:**
 - Structured clarification dialog for research parameters
-- Two research modes: Adaptive (sequential) and Parallel (fast)
-- Progressive synthesis with thematic organization
 - Automated source analysis via research-analyst subagent
 - Produces comprehensive documentation with proper citations
 
@@ -83,7 +81,7 @@ All components work together seamlessly as part of a single plugin.
 # Claude will:
 # 1. Ask clarifying questions about research goals and preferences
 # 2. Create a research plan with defined angles
-# 3. Spawn multiple research-analyst agents in parallel (or sequentially)
+# 3. Spawn multiple research-analyst agents in parallel
 # 4. Each agent uses analyzing-source to create detailed summaries
 # 5. Synthesize findings into thematic analysis
 # 6. Deliver comprehensive research documentation
