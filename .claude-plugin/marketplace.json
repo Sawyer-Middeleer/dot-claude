@@ -1,39 +1,23 @@
 {
   "name": "dot-claude",
   "owner": {
-    "name": "Dot Claude by Sawyer",
+    "name": "Sawyer Middeleer",
     "email": "saw.midd@gmail.com"
   },
-  "metadata": {
-    "description": "A collection of actually useful skills and subagents for Claude Agent",
-    "version": "1.0.0"
-  },
+  "description": "An actually useful collection of extensions for Claude Agent (Claude Code)",
+  "version": "2.0.0",
   "plugins": [
     {
-      "name": "dot-claude-skills",
-      "source": "./skills",
-      "description": "Actually useful skills for Claude Agent",
-      "version": "1.0.0",
+      "name": "dot-claude",
+      "description": "An actually useful collection of extensions for Claude Agent (Claude Code) - focused on non-programming tasks",
+      "version": "2.0.0",
       "author": {
-        "name": "Sawyer"
+        "name": "Sawyer Middeleer",
+        "email": "saw.midd@gmail.com"
       },
-      "skills": [
-        "./creating-skills/SKILL.md",
-        "./conducting-deep-research/SKILL.md",
-        "./analyzing-source/SKILL.md"
-      ]
-    },
-    {
-      "name": "dot-claude-agents",
-      "source": "./agents",
-      "description": "Actually useful agents for Claude Agent",
-      "version": "1.0.0",
-      "author": {
-        "name": "Sawyer"
-      },
-      "agents": [
-        "./research-analyst.md"
-      ]
+      "repository": "github.com/Sawyer-Middeleer/dot-claude",
+      "tags": ["research", "analysis", "skills", "agents", "productivity"],
+      "source": "./plugins/dot-claude"
     }
   ]
 }

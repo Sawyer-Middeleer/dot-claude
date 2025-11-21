@@ -1,0 +1,19 @@
+{
+  "name": "dot-claude",
+  "version": "2.0.0",
+  "description": "Actually useful skills, agents, and commands for Claude Code - focused on research, analysis, and skill creation",
+  "author": {
+    "name": "Sawyer",
+    "email": "saw.midd@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "analysis",
+    "skills",
+    "agents",
+    "productivity"
+  ],
+  "repository": "https://github.com/Sawyer-Middeleer/dot-claude",
+  "homepage": "https://github.com/Sawyer-Middeleer/dot-claude"
+}
