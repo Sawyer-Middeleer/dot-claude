@@ -28,10 +28,7 @@ Execute a systematic research workflow that:
 
 **If the user invoked the command without a topic** (e.g., just `/deep-research`):
 
-Use the **AskUserQuestion** tool to ask:
-- **Question**: "What topic or research question would you like to investigate?"
-- **Header**: "Research Topic"
-- Provide a text input for the user to describe their research interest
+Ask an open-ended question: "What topic or research question would you like to investigate?"
 
 **If the user provided a topic** (e.g., `/deep-research distributed systems patterns`):
 
