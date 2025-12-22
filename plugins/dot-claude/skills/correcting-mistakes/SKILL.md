@@ -8,6 +8,7 @@ description: Self-corrects skill and command instructions after resolving errors
 Trigger this skill when:
 1. You error during execution of a skill or command and eventually work out a solution
 2. The user indicates you made a mistake in executing a skill or command
+3. Claude fails during skill or command execution due to an edge case
 
 ## Workflow
 
@@ -30,6 +31,7 @@ Determine: **Was this your misunderstanding, or an instruction issue?**
 
 **Instruction issue** (proceed to Step 3):
 - The instruction was ambiguous, misleading, or incomplete
+- An edge case was found that the skill or command doesn't account for
 - The instruction specified an incorrect approach
 - The instruction omitted a critical step or detail
 
